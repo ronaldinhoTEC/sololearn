@@ -1,9 +1,8 @@
-from typing import NoReturn
 
-
-numeroMax = int(input(f'Ingrese un numero maximo'))
+numeroMax = int(input(f'Ingrese un numero maximo: '))
+divisor = int(input('Ingresa el divisor: '))
 i = 0
 while i <= numeroMax:
-    if i % 2 == 0:
+    if i % divisor == 0:
         print(f'{i}')
     i+=1
