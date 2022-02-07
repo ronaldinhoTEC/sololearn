@@ -6,6 +6,6 @@ while i <= numeroMax:
     if i % divisor == 0:
         print(f'{i}')
     else:
-        print('no es divisible ')
+        print(f'{i} no es divisible ')
 
     i+=1    
