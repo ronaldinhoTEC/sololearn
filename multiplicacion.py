@@ -5,4 +5,7 @@ i = 0
 while i <= numeroMax:
     if i % divisor == 0:
         print(f'{i}')
-    i+=1
+    else:
+        print('no es divisible ')
+
+    i+=1    
