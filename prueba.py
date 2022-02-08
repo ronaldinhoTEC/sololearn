@@ -1,3 +1,2 @@
-from _typeshed import IdentityFunction
-
-print
+f = open('textos/poesia.txt', 'r')
+print(f.read())
